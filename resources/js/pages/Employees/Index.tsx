@@ -8,7 +8,7 @@ export default function EmployeesIndex() {
             <Head title="Employees" />
             <div className="container mx-auto p-6">
                 <h1 className="text-2xl font-bold mb-4">👥 Employees</h1>
-                <p className="text-gray-600">Manage employee information and directory.</p>
+                <p className="text-gray-600">Manage employee data and information.</p>
             </div>
         </AppLayout>
     );

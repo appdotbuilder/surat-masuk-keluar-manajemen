@@ -7,7 +7,7 @@ export default function OrganizationSettingsIndex() {
         <AppLayout>
             <Head title="Organization Settings" />
             <div className="container mx-auto p-6">
-                <h1 className="text-2xl font-bold mb-4">⚙️ Organization Settings</h1>
+                <h1 className="text-2xl font-bold mb-4">🏛️ Organization Settings</h1>
                 <p className="text-gray-600">Configure organization-wide settings and preferences.</p>
             </div>
         </AppLayout>

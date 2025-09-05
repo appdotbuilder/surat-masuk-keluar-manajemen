@@ -7,8 +7,8 @@ export default function IncomingMailsIndex() {
         <AppLayout>
             <Head title="Incoming Mails" />
             <div className="container mx-auto p-6">
-                <h1 className="text-2xl font-bold mb-4">📨 Incoming Mails</h1>
-                <p className="text-gray-600">Manage and track all incoming correspondence.</p>
+                <h1 className="text-2xl font-bold mb-4">📥 Incoming Mails</h1>
+                <p className="text-gray-600">Manage and track incoming mail correspondence.</p>
             </div>
         </AppLayout>
     );

@@ -8,7 +8,7 @@ export default function OutgoingMailsIndex() {
             <Head title="Outgoing Mails" />
             <div className="container mx-auto p-6">
                 <h1 className="text-2xl font-bold mb-4">📤 Outgoing Mails</h1>
-                <p className="text-gray-600">Track and manage all outgoing correspondence.</p>
+                <p className="text-gray-600">Manage and track outgoing mail correspondence.</p>
             </div>
         </AppLayout>
     );
