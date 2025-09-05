@@ -11,7 +11,7 @@ import { useInitials } from '@/hooks/use-initials';
 import { cn } from '@/lib/utils';
 import { type BreadcrumbItem, type NavItem, type SharedData } from '@/types';
 import { Link, usePage } from '@inertiajs/react';
-import { BookOpen, Folder, LayoutGrid, Menu, Search } from 'lucide-react';
+import { BookOpen, Folder, LayoutGrid, Menu, Search, Mail, MailOpen, Users } from 'lucide-react';
 import AppLogo from './app-logo';
 import AppLogoIcon from './app-logo-icon';
 
@@ -20,6 +20,21 @@ const mainNavItems: NavItem[] = [
         title: 'Dashboard',
         href: '/dashboard',
         icon: LayoutGrid,
+    },
+    {
+        title: 'Surat Masuk',
+        href: '/incoming-mails',
+        icon: Mail,
+    },
+    {
+        title: 'Surat Keluar',
+        href: '/outgoing-mails',
+        icon: MailOpen,
+    },
+    {
+        title: 'Data Pegawai',
+        href: '/employees',
+        icon: Users,
     },
 ];
 

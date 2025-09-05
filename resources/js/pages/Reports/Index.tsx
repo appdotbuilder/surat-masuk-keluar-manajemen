@@ -8,7 +8,7 @@ export default function ReportsIndex() {
             <Head title="Reports" />
             <div className="container mx-auto p-6">
                 <h1 className="text-2xl font-bold mb-4">📊 Reports</h1>
-                <p className="text-gray-600">Generate and view mail management reports.</p>
+                <p className="text-gray-600">View and generate reports on mail management activities.</p>
             </div>
         </AppLayout>
     );

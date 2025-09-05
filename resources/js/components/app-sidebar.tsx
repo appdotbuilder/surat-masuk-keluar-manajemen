@@ -11,11 +11,14 @@ import {
     Mail,
     MailOpen,
     FileText,
-    Settings,
     Archive,
     Bell,
     BarChart3,
-    Building2
+    Building2,
+    Users,
+    Briefcase,
+    Tag,
+    Type
 } from 'lucide-react';
 import AppLogo from './app-logo';
 
@@ -43,7 +46,7 @@ const mainNavItems: NavItem[] = [
     {
         title: 'Data Pegawai',
         href: '/employees',
-        icon: Settings,
+        icon: Users,
     },
     {
         title: 'Pengumuman',
@@ -64,6 +67,28 @@ const mainNavItems: NavItem[] = [
         title: 'Pengaturan',
         href: '/organization-settings',
         icon: Building2,
+        items: [
+            {
+                title: 'Pengaturan Jabatan',
+                href: '/positions',
+                icon: Briefcase,
+            },
+            {
+                title: 'Departemen',
+                href: '/departments',
+                icon: Building2,
+            },
+            {
+                title: 'Kategori Surat',
+                href: '/mail-categories',
+                icon: Tag,
+            },
+            {
+                title: 'Sifat Surat',
+                href: '/mail-types',
+                icon: Type,
+            },
+        ],
     },
 ];
 
