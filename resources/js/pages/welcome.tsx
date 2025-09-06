@@ -43,13 +43,14 @@ export default function Welcome() {
                     <main className="flex w-full max-w-6xl flex-col lg:flex-row lg:items-center lg:gap-12">
                         <div className="flex-1 mb-8 lg:mb-0">
                             <div className="text-center lg:text-left">
-                                <h1 className="mb-6 text-4xl font-bold leading-tight lg:text-6xl">
+                                <h1 className="mb-6 text-4xl font-bold leading-tight lg:text-6xl animate-fade-in">
                                     📧 <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Sistem Manajemen</span><br />
                                     <span className="text-gray-800 dark:text-gray-200">Surat Digital</span>
+                                    <span className="ml-2 text-2xl lg:text-3xl">⚡</span>
                                 </h1>
                                 <p className="mb-8 text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
                                     Platform komprehensif untuk mengelola surat masuk dan keluar instansi dengan fitur disposisi, 
-                                    arsip digital, dan pelaporan yang terintegrasi.
+                                    arsip digital, dan pelaporan yang terintegrasi. <span className="text-2xl">🚀</span>
                                 </p>
                                 
                                 <div className="mb-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-4 text-left">
@@ -166,7 +167,7 @@ export default function Welcome() {
                 
                 <footer className="mt-12 text-center">
                     <p className="text-sm text-gray-600 dark:text-gray-400">
-                        Sistem Manajemen Surat Digital • Solusi Terpadu untuk Instansi Modern
+                        🏢 Sistem Manajemen Surat Digital • Solusi Terpadu untuk Instansi Modern ✨
                     </p>
                 </footer>
             </div>
